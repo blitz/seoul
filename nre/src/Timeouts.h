@@ -62,7 +62,7 @@ public:
     }
 
 private:
-    NORETURN static void timer_thread(void*);
+    VMM_NORETURN static void timer_thread(void*);
     void trigger();
     void program();
 
